@@ -1,0 +1,104 @@
+# PropQuest — Upptime status page configuration
+# Reference: https://upptime.js.org/docs/configuration
+
+# Owner / repo settings (sister repo, NOT the main propquest monorepo).
+owner: esteban572
+repo: propquest-status
+
+# Sites to monitor.
+# Each site is checked every 5 minutes (Upptime default cron).
+sites:
+  - name: PropQuest Homepage
+    url: https://propquest.ai/
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: Privacy Policy
+    url: https://propquest.ai/privacy-policy
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: Terms of Service
+    url: https://propquest.ai/terms-of-service
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: API Health Check
+    url: https://api.propquest.ai/up
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: App Login
+    url: https://app.propquest.ai/login
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+  - name: Cal Booking Page
+    url: https://cal.propquest.ai/esteban/demo
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+
+# Issue assignees — Upptime opens an issue when a check goes down.
+assignees:
+  - esteban572
+
+# Status page UI / branding.
+status-website:
+  cname: status.propquest.ai
+  name: PropQuest Status
+  introTitle: "**PropQuest Status** — real-time uptime + response time for the platform."
+  introMessage: "If you spot an outage that isn't reflected here, email support@propquest.ai."
+  logoUrl: https://propquest.ai/logo.svg
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/esteban572/propquest-status
+
+# History page — show last 90 days of uptime data.
+pastDays: 90
+
+# Branding cleanup.
+showPoweredBy: false
+
+# Notifications — V1 keeps it issue-based; Slack/Discord wiring is a follow-up.
+# notifications:
+#   - type: slack
+#     channel: status-alerts
+#   - type: discord
+#     url: $DISCORD_WEBHOOK_URL
+
+# How long Upptime waits for a response before marking down (ms).
+# Default 30000; bump if API endpoints have cold-start latency.
+delay: 5000
+
+# How many retries before declaring an outage.
+maxRetries: 3
+
+# Commit author for workflow-driven commits.
+commitMessages:
+  readmeContent: ":pencil: Update summary in README [skip ci] [upptime]"
+  summaryJson: ":card_file_box: Update status summary [skip ci] [upptime]"
+  statusChange: "$EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci] [upptime]"
+  graphsUpdate: ":chart_with_upwards_trend: Update graphs [skip ci] [upptime]"
+  commitAuthorName: Upptime Bot
+  commitAuthorEmail: bot@upptime.js.org
+
+# i18n / locale (defaults are fine).
+i18n:
+  activeIncidents: Active Incidents
+  allSystemsOperational: All systems operational
+  incidentReportOn: Incident report on
+  ongoing: Ongoing
+  resolved: Resolved
+  status: Status
+  upptime: PropQuest Status
+  responseTime: response time
+  uptime: uptime
