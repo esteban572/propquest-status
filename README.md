@@ -10,14 +10,14 @@ This is the **sister repo** that hosts:
 
 ## What this monitors
 
-| Site | URL |
-|---|---|
-| PropQuest Homepage | https://propquest.ai/ |
-| Privacy Policy | https://propquest.ai/privacy-policy |
-| Terms of Service | https://propquest.ai/terms-of-service |
-| API Health Check | https://api.propquest.ai/up |
-| App Login | https://app.propquest.ai/login |
-| Cal Booking Page | https://cal.propquest.ai/esteban/demo |
+| Site               | URL                                   |
+| ------------------ | ------------------------------------- |
+| PropQuest Homepage | https://propquest.ai/                 |
+| Privacy Policy     | https://propquest.ai/privacy-policy   |
+| Terms of Service   | https://propquest.ai/terms-of-service |
+| API Health Check   | https://api.propquest.ai/up           |
+| App Login          | https://app.propquest.ai/login        |
+| Cal Booking Page   | https://cal.propquest.ai/esteban/demo |
 
 Checks run every 5 minutes from GitHub's runners.
 
@@ -63,15 +63,15 @@ To activate the custom domain:
 
 ## Workflows
 
-| Workflow | Cadence | Purpose |
-|---|---|---|
-| `uptime.yml` | every 5 min | Run health checks against all sites |
-| `response-time.yml` | daily | Update response-time graphs |
-| `summary.yml` | daily | Regenerate README status badges |
-| `graphs.yml` | daily | Regenerate the uptime graphs |
-| `static-site.yml` | hourly | Build + deploy the public status page to GitHub Pages |
-| `setup.yml` | on config change | Bootstrap history files when sites change |
-| `updates.yml` | daily 03:00 UTC | Pull upstream Upptime template updates |
+| Workflow            | Cadence          | Purpose                                               |
+| ------------------- | ---------------- | ----------------------------------------------------- |
+| `uptime.yml`        | every 5 min      | Run health checks against all sites                   |
+| `response-time.yml` | daily            | Update response-time graphs                           |
+| `summary.yml`       | daily            | Regenerate README status badges                       |
+| `graphs.yml`        | daily            | Regenerate the uptime graphs                          |
+| `static-site.yml`   | hourly           | Build + deploy the public status page to GitHub Pages |
+| `setup.yml`         | on config change | Bootstrap history files when sites change             |
+| `updates.yml`       | daily 03:00 UTC  | Pull upstream Upptime template updates                |
 
 ## Permissions / secrets
 
