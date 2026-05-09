@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 186,
-    "timeDay": 186,
-    "timeWeek": 186,
-    "timeMonth": 186,
-    "timeYear": 186,
+    "time": 123,
+    "timeDay": 123,
+    "timeWeek": 123,
+    "timeMonth": 123,
+    "timeYear": 123,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 303,
-    "timeDay": 303,
-    "timeWeek": 303,
-    "timeMonth": 303,
-    "timeYear": 303,
+    "time": 313,
+    "timeDay": 313,
+    "timeWeek": 313,
+    "timeMonth": 313,
+    "timeYear": 313,
     "dailyMinutesDown": {}
   },
   {
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 325,
-    "timeDay": 325,
-    "timeWeek": 325,
-    "timeMonth": 325,
-    "timeYear": 325,
+    "time": 230,
+    "timeDay": 230,
+    "timeWeek": 230,
+    "timeMonth": 230,
+    "timeYear": 230,
     "dailyMinutesDown": {}
   },
   {
@@ -64,11 +64,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 363,
-    "timeDay": 363,
-    "timeWeek": 363,
-    "timeMonth": 363,
-    "timeYear": 363,
+    "time": 341,
+    "timeDay": 341,
+    "timeWeek": 341,
+    "timeMonth": 341,
+    "timeYear": 341,
     "dailyMinutesDown": {}
   },
   {
@@ -77,17 +77,20 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.propquest.ai.ico",
     "slug": "app-login",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "0.08%",
+    "uptimeDay": "0.08%",
+    "uptimeWeek": "0.08%",
+    "uptimeMonth": "0.08%",
+    "uptimeYear": "0.08%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-05-09": 23,
+      "2026-05-08": 443
+    }
   },
   {
     "name": "Cal Booking Page",
@@ -100,11 +103,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 2151,
-    "timeDay": 2151,
-    "timeWeek": 2151,
-    "timeMonth": 2151,
-    "timeYear": 2151,
+    "time": 1668,
+    "timeDay": 1668,
+    "timeWeek": 1668,
+    "timeMonth": 1668,
+    "timeYear": 1668,
     "dailyMinutesDown": {}
   }
 ]
